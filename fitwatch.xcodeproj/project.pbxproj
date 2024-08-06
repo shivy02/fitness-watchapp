@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9BD6322C61EE1B00F197F9 /* fitwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C9BD6372C61EE1B00F197F9 /* fitwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6362C61EE1B00F197F9 /* fitwatchApp.swift */; };
+		3C9BD6392C61EE1B00F197F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6382C61EE1B00F197F9 /* ContentView.swift */; };
+		3C9BD63B2C61EE1C00F197F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BD63A2C61EE1C00F197F9 /* Assets.xcassets */; };
+		3C9BD63E2C61EE1C00F197F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9BD63D2C61EE1C00F197F9 /* Preview Assets.xcassets */; };
+		3C9BD6482C61EE1C00F197F9 /* fitwatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6472C61EE1C00F197F9 /* fitwatch_Watch_AppTests.swift */; };
+		3C9BD6522C61EE1C00F197F9 /* fitwatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6512C61EE1C00F197F9 /* fitwatch_Watch_AppUITests.swift */; };
+		3C9BD6542C61EE1C00F197F9 /* fitwatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6532C61EE1C00F197F9 /* fitwatch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9BD6332C61EE1B00F197F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9BD6252C61EE1B00F197F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9BD6302C61EE1B00F197F9;
+			remoteInfo = "fitwatch Watch App";
+		};
+		3C9BD6442C61EE1C00F197F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9BD6252C61EE1B00F197F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9BD6302C61EE1B00F197F9;
+			remoteInfo = "fitwatch Watch App";
+		};
+		3C9BD64E2C61EE1C00F197F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9BD6252C61EE1B00F197F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9BD6302C61EE1B00F197F9;
+			remoteInfo = "fitwatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C9BD65A2C61EE1C00F197F9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C9BD6322C61EE1B00F197F9 /* fitwatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C9BD62B2C61EE1B00F197F9 /* fitwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fitwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9BD6362C61EE1B00F197F9 /* fitwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitwatchApp.swift; sourceTree = "<group>"; };
+		3C9BD6382C61EE1B00F197F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C9BD63A2C61EE1C00F197F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9BD63D2C61EE1C00F197F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C9BD6432C61EE1C00F197F9 /* fitwatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitwatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9BD6472C61EE1C00F197F9 /* fitwatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitwatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3C9BD64D2C61EE1C00F197F9 /* fitwatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fitwatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9BD6512C61EE1C00F197F9 /* fitwatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitwatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3C9BD6532C61EE1C00F197F9 /* fitwatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitwatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9BD62E2C61EE1B00F197F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD6402C61EE1C00F197F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD64A2C61EE1C00F197F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9BD6242C61EE1B00F197F9 = {
+			isa = PBXGroup;
+			children = (
+				3C9BD6352C61EE1B00F197F9 /* fitwatch Watch App */,
+				3C9BD6462C61EE1C00F197F9 /* fitwatch Watch AppTests */,
+				3C9BD6502C61EE1C00F197F9 /* fitwatch Watch AppUITests */,
+				3C9BD62C2C61EE1B00F197F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9BD62C2C61EE1B00F197F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BD62B2C61EE1B00F197F9 /* fitwatch.app */,
+				3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */,
+				3C9BD6432C61EE1C00F197F9 /* fitwatch Watch AppTests.xctest */,
+				3C9BD64D2C61EE1C00F197F9 /* fitwatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9BD6352C61EE1B00F197F9 /* fitwatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BD6362C61EE1B00F197F9 /* fitwatchApp.swift */,
+				3C9BD6382C61EE1B00F197F9 /* ContentView.swift */,
+				3C9BD63A2C61EE1C00F197F9 /* Assets.xcassets */,
+				3C9BD63C2C61EE1C00F197F9 /* Preview Content */,
+			);
+			path = "fitwatch Watch App";
+			sourceTree = "<group>";
+		};
+		3C9BD63C2C61EE1C00F197F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BD63D2C61EE1C00F197F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C9BD6462C61EE1C00F197F9 /* fitwatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BD6472C61EE1C00F197F9 /* fitwatch_Watch_AppTests.swift */,
+			);
+			path = "fitwatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3C9BD6502C61EE1C00F197F9 /* fitwatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BD6512C61EE1C00F197F9 /* fitwatch_Watch_AppUITests.swift */,
+				3C9BD6532C61EE1C00F197F9 /* fitwatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "fitwatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9BD62A2C61EE1B00F197F9 /* fitwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9BD65B2C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch" */;
+			buildPhases = (
+				3C9BD6292C61EE1B00F197F9 /* Resources */,
+				3C9BD65A2C61EE1C00F197F9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9BD6342C61EE1B00F197F9 /* PBXTargetDependency */,
+			);
+			name = fitwatch;
+			productName = fitwatch;
+			productReference = 3C9BD62B2C61EE1B00F197F9 /* fitwatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3C9BD6302C61EE1B00F197F9 /* fitwatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9BD6572C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch App" */;
+			buildPhases = (
+				3C9BD62D2C61EE1B00F197F9 /* Sources */,
+				3C9BD62E2C61EE1B00F197F9 /* Frameworks */,
+				3C9BD62F2C61EE1B00F197F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fitwatch Watch App";
+			productName = "fitwatch Watch App";
+			productReference = 3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9BD6422C61EE1C00F197F9 /* fitwatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9BD65E2C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch AppTests" */;
+			buildPhases = (
+				3C9BD63F2C61EE1C00F197F9 /* Sources */,
+				3C9BD6402C61EE1C00F197F9 /* Frameworks */,
+				3C9BD6412C61EE1C00F197F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9BD6452C61EE1C00F197F9 /* PBXTargetDependency */,
+			);
+			name = "fitwatch Watch AppTests";
+			productName = "fitwatch Watch AppTests";
+			productReference = 3C9BD6432C61EE1C00F197F9 /* fitwatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9BD64C2C61EE1C00F197F9 /* fitwatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9BD6612C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch AppUITests" */;
+			buildPhases = (
+				3C9BD6492C61EE1C00F197F9 /* Sources */,
+				3C9BD64A2C61EE1C00F197F9 /* Frameworks */,
+				3C9BD64B2C61EE1C00F197F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9BD64F2C61EE1C00F197F9 /* PBXTargetDependency */,
+			);
+			name = "fitwatch Watch AppUITests";
+			productName = "fitwatch Watch AppUITests";
+			productReference = 3C9BD64D2C61EE1C00F197F9 /* fitwatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9BD6252C61EE1B00F197F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C9BD62A2C61EE1B00F197F9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C9BD6302C61EE1B00F197F9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3C9BD6422C61EE1C00F197F9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C9BD6302C61EE1B00F197F9;
+					};
+					3C9BD64C2C61EE1C00F197F9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3C9BD6302C61EE1B00F197F9;
+					};
+				};
+			};
+			buildConfigurationList = 3C9BD6282C61EE1B00F197F9 /* Build configuration list for PBXProject "fitwatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9BD6242C61EE1B00F197F9;
+			productRefGroup = 3C9BD62C2C61EE1B00F197F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9BD62A2C61EE1B00F197F9 /* fitwatch */,
+				3C9BD6302C61EE1B00F197F9 /* fitwatch Watch App */,
+				3C9BD6422C61EE1C00F197F9 /* fitwatch Watch AppTests */,
+				3C9BD64C2C61EE1C00F197F9 /* fitwatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9BD6292C61EE1B00F197F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD62F2C61EE1B00F197F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9BD63E2C61EE1C00F197F9 /* Preview Assets.xcassets in Resources */,
+				3C9BD63B2C61EE1C00F197F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD6412C61EE1C00F197F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD64B2C61EE1C00F197F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9BD62D2C61EE1B00F197F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9BD6392C61EE1B00F197F9 /* ContentView.swift in Sources */,
+				3C9BD6372C61EE1B00F197F9 /* fitwatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD63F2C61EE1C00F197F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9BD6482C61EE1C00F197F9 /* fitwatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9BD6492C61EE1C00F197F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9BD6542C61EE1C00F197F9 /* fitwatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				3C9BD6522C61EE1C00F197F9 /* fitwatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9BD6342C61EE1B00F197F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9BD6302C61EE1B00F197F9 /* fitwatch Watch App */;
+			targetProxy = 3C9BD6332C61EE1B00F197F9 /* PBXContainerItemProxy */;
+		};
+		3C9BD6452C61EE1C00F197F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9BD6302C61EE1B00F197F9 /* fitwatch Watch App */;
+			targetProxy = 3C9BD6442C61EE1C00F197F9 /* PBXContainerItemProxy */;
+		};
+		3C9BD64F2C61EE1C00F197F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9BD6302C61EE1B00F197F9 /* fitwatch Watch App */;
+			targetProxy = 3C9BD64E2C61EE1C00F197F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C9BD6552C61EE1C00F197F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9BD6562C61EE1C00F197F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C9BD6582C61EE1C00F197F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fitwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fitwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhivam.fitwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3C9BD6592C61EE1C00F197F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fitwatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = fitwatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhivam.fitwatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		3C9BD65C2C61EE1C00F197F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				INFOPLIST_KEY_CFBundleDisplayName = fitwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhivam.fitwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C9BD65D2C61EE1C00F197F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				INFOPLIST_KEY_CFBundleDisplayName = fitwatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhivam.fitwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9BD65F2C61EE1C00F197F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhivam.fitwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fitwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3C9BD6602C61EE1C00F197F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhivam.fitwatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fitwatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fitwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		3C9BD6622C61EE1C00F197F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhivam.fitwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fitwatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		3C9BD6632C61EE1C00F197F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JD56HJC5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dhivam.fitwatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "fitwatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9BD6282C61EE1B00F197F9 /* Build configuration list for PBXProject "fitwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9BD6552C61EE1C00F197F9 /* Debug */,
+				3C9BD6562C61EE1C00F197F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9BD6572C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9BD6582C61EE1C00F197F9 /* Debug */,
+				3C9BD6592C61EE1C00F197F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9BD65B2C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9BD65C2C61EE1C00F197F9 /* Debug */,
+				3C9BD65D2C61EE1C00F197F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9BD65E2C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9BD65F2C61EE1C00F197F9 /* Debug */,
+				3C9BD6602C61EE1C00F197F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9BD6612C61EE1C00F197F9 /* Build configuration list for PBXNativeTarget "fitwatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9BD6622C61EE1C00F197F9 /* Debug */,
+				3C9BD6632C61EE1C00F197F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9BD6252C61EE1B00F197F9 /* Project object */;
+}
