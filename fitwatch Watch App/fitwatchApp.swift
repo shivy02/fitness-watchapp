@@ -11,7 +11,7 @@ import SwiftUI
 struct fitwatch_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuView()
         }
     }
 }
