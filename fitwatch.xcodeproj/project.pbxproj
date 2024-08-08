@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C55631B2C64914500F44107 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55631A2C64914500F44107 /* MenuView.swift */; };
+		3C55631D2C64920700F44107 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55631C2C64920700F44107 /* WorkoutView.swift */; };
 		3C9BD6322C61EE1B00F197F9 /* fitwatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3C9BD6372C61EE1B00F197F9 /* fitwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6362C61EE1B00F197F9 /* fitwatchApp.swift */; };
 		3C9BD6392C61EE1B00F197F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BD6382C61EE1B00F197F9 /* ContentView.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C55631A2C64914500F44107 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		3C55631C2C64920700F44107 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		3C9BD62B2C61EE1B00F197F9 /* fitwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9BD6312C61EE1B00F197F9 /* fitwatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fitwatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9BD6362C61EE1B00F197F9 /* fitwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitwatchApp.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				3C9BD6382C61EE1B00F197F9 /* ContentView.swift */,
 				3C9BD63A2C61EE1C00F197F9 /* Assets.xcassets */,
 				3C9BD63C2C61EE1C00F197F9 /* Preview Content */,
+				3C55631A2C64914500F44107 /* MenuView.swift */,
+				3C55631C2C64920700F44107 /* WorkoutView.swift */,
 			);
 			path = "fitwatch Watch App";
 			sourceTree = "<group>";
@@ -310,6 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9BD6392C61EE1B00F197F9 /* ContentView.swift in Sources */,
+				3C55631B2C64914500F44107 /* MenuView.swift in Sources */,
+				3C55631D2C64920700F44107 /* WorkoutView.swift in Sources */,
 				3C9BD6372C61EE1B00F197F9 /* fitwatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
