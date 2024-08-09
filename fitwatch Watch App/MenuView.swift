@@ -41,7 +41,7 @@ struct MenuView: View {
                 ListItemView(title: "Moderate", subheading: "1 sec contraction\n3 sec eccentric", iconName: "hare.fill")
             }
             NavigationLink(destination: WorkoutView(workoutSetting: WorkoutSetting(title: "Fast", contractionDuration: 1, eccentricDuration: 2))) {
-                ListItemView(title: "Faset", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill")
+                ListItemView(title: "Fast", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill")
             }
         }
     }

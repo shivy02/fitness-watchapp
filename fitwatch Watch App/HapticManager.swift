@@ -10,6 +10,8 @@ import WatchKit
 
 struct HapticManager {
     
+    var workoutSetting: WorkoutSetting
+    
     // Function to play haptic feedback for slow mode
     static func startSlowHaptic() {
         // Play constant haptic for 5 seconds
@@ -67,9 +69,12 @@ struct HapticManager {
         }
     }
     // Generalized function to play haptic feedback
-        static func playHaptic(eccentricDuration: TimeInterval, contractionDuration: TimeInterval) {
+    static func playHaptic(setting: WorkoutSetting) {
+        
+            let eccentricInterval = TimeInterval(setting.eccentricDuration)
+            let contractionInterval = TimeInterval(setting.contractionDuration)
             // Play constant haptic for eccentric duration
-            let eccentricEndTime = Date().addingTimeInterval(eccentricDuration)
+            let eccentricEndTime = Date().addingTimeInterval(eccentricInterval)
             while Date() < eccentricEndTime {
                 WKInterfaceDevice.current().play(.success)
                 Thread.sleep(forTimeInterval: 0.1) // Short delay to simulate continuous feedback
@@ -79,7 +84,7 @@ struct HapticManager {
             Thread.sleep(forTimeInterval: 1)
             
             // Play constant haptic for contraction duration
-            let contractionEndTime = Date().addingTimeInterval(contractionDuration)
+            let contractionEndTime = Date().addingTimeInterval(contractionInterval)
             while Date() < contractionEndTime {
                 WKInterfaceDevice.current().play(.success)
                 Thread.sleep(forTimeInterval: 0.1) // Short delay to simulate continuous feedback
