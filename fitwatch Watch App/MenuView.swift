@@ -11,22 +11,25 @@ struct ListItemView: View {
     var title: String
     var subheading: String
     var iconName: String
+    var action: () -> Void // Add a closure for the action
     
     var body: some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text(title)
-                    .font(.system(size: 20, weight: .bold)) // Increase the font size for the title
-                Text(subheading)
-                    .font(.system(size: 14, weight: .regular)) // Decrease the font size for the subheading
-                    .foregroundColor(.gray)
+        Button(action: action) { // Make the whole item a button
+            HStack {
+                VStack(alignment: .leading) {
+                    Text(title)
+                        .font(.system(size: 20, weight: .bold)) // Increase the font size for the title
+                    Text(subheading)
+                        .font(.system(size: 14, weight: .regular)) // Decrease the font size for the subheading
+                        .foregroundColor(.gray)
+                }
+                Spacer()
+                Image(systemName: iconName)
+                    .foregroundColor(.blue) // Optional: Change the color of the icon
+                    .font(.system(size: 20)) // Optional: Adjust the size of the icon
             }
-            Spacer()
-            Image(systemName: iconName)
-                .foregroundColor(.blue) // Optional: Change the color of the icon
-                .font(.system(size: 20)) // Optional: Adjust the size of the icon
+            .padding(.vertical, 5) // Optional: Add some vertical padding for better spacing
         }
-        .padding(.vertical, 5) // Optional: Add some vertical padding for better spacing
     }
 }
 
@@ -34,9 +37,12 @@ struct MenuView: View {
     var body: some View {
         
         List {
-            ListItemView(title: "Slow", subheading: "2 sec contraction\n5 sec eccentric", iconName: "tortoise.fill")
-            ListItemView(title: "Moderate", subheading: "1 sec contraction\n3 sec eccentric", iconName: "hare.fill")
-            ListItemView(title: "Fast", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill")
+            ListItemView(title: "Slow", subheading: "2 sec contraction\n5 sec eccentric", iconName: "tortoise.fill") {
+            }
+            ListItemView(title: "Moderate", subheading: "1 sec contraction\n3 sec eccentric", iconName: "hare.fill") {
+            }
+            ListItemView(title: "Fast", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill") {
+            }
         }
     }
 }
