@@ -10,6 +10,7 @@ import SwiftUI
 struct WorkoutView: View {
     @State private var scale: CGFloat = 1.0
     @State private var rotation: Double = 0.0
+    var workoutSetting: WorkoutSetting
 
     var body: some View {
         ZStack {
@@ -42,6 +43,8 @@ struct WorkoutView: View {
     }
 }
 
-#Preview {
-    WorkoutView()
+struct WorkoutView_Previews: PreviewProvider {
+    static var previews: some View {
+        WorkoutView(workoutSetting: WorkoutSetting(title: "Example", contractionDuration: 2, eccentricDuration: 3))
+    }
 }

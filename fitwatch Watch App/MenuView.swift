@@ -4,7 +4,6 @@
 //
 //  Created by Shivam Patel on 8/8/24.
 //
-
 import SwiftUI
 
 struct ListItemView: View {
@@ -34,9 +33,15 @@ struct MenuView: View {
     var body: some View {
         
         List {
-            ListItemView(title: "Slow", subheading: "2 sec contraction\n5 sec eccentric", iconName: "tortoise.fill")
-            ListItemView(title: "Moderate", subheading: "1 sec contraction\n3 sec eccentric", iconName: "hare.fill")
-            ListItemView(title: "Fast", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill")
+            NavigationLink(destination: WorkoutView(workoutSetting: WorkoutSetting(title: "Slow", contractionDuration: 2, eccentricDuration: 4))) {
+                ListItemView(title: "Slow", subheading: "2 sec contraction\n4 sec eccentric", iconName: "tortoise.fill")
+            }
+            NavigationLink(destination: WorkoutView(workoutSetting: WorkoutSetting(title: "Moderate", contractionDuration: 1, eccentricDuration: 3))) {
+                ListItemView(title: "Moderate", subheading: "1 sec contraction\n3 sec eccentric", iconName: "hare.fill")
+            }
+            NavigationLink(destination: WorkoutView(workoutSetting: WorkoutSetting(title: "Fast", contractionDuration: 1, eccentricDuration: 2))) {
+                ListItemView(title: "Faset", subheading: "1 sec contraction\n2 sec eccentric", iconName: "flame.fill")
+            }
         }
     }
 }
