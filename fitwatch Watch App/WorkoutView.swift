@@ -109,28 +109,33 @@ struct WorkoutView: View {
     }
     
     func playHaptic() {
-            isPlaying = true // Ensure this is set to true to start the loop
-            let eccentricInterval = TimeInterval(workoutSetting.eccentricDuration)
-            let contractionInterval = TimeInterval(workoutSetting.contractionDuration)
+        isPlaying = true
+        let contractionInterval = TimeInterval(workoutSetting.contractionDuration)
+        let eccentricInterval = TimeInterval(workoutSetting.eccentricDuration)
+        
+        while isPlaying {
+            // Play near-constant haptic for contraction duration first
+            let contractionEndTime = Date().addingTimeInterval(contractionInterval)
+            while Date() < contractionEndTime && isPlaying {
+                WKInterfaceDevice.current().play(.success)
+                Thread.sleep(forTimeInterval: 0.1) // Very short delay to simulate a near-continuous buzz
+            }
             
-            while isPlaying {
-                let eccentricEndTime = Date().addingTimeInterval(eccentricInterval)
-                while Date() < eccentricEndTime && isPlaying {
-                    WKInterfaceDevice.current().play(.success)
-                    Thread.sleep(forTimeInterval: 0.1) // Short delay to simulate continuous feedback
-                }
-                
-                // Pause for 1 second if still playing
-                if isPlaying { Thread.sleep(forTimeInterval: 1) }
-                
-                // Play constant haptic for contraction duration if still playing
-                let contractionEndTime = Date().addingTimeInterval(contractionInterval)
-                while Date() < contractionEndTime && isPlaying {
-                    WKInterfaceDevice.current().play(.success)
-                    Thread.sleep(forTimeInterval: 0.1) // Short delay to simulate continuous feedback
-                }
+            // Pause for 1 second if still playing
+            if isPlaying { Thread.sleep(forTimeInterval: 1) }
+            
+            // Play haptic for eccentric duration
+            let eccentricEndTime = Date().addingTimeInterval(eccentricInterval)
+            while Date() < eccentricEndTime && isPlaying {
+                WKInterfaceDevice.current().play(.success)
+                Thread.sleep(forTimeInterval: 0.5) // Short delay to simulate rhythmic feedback
             }
         }
+    }
+
+
+
+
 }
 
 struct WorkoutView_Previews: PreviewProvider {
